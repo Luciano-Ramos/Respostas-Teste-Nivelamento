@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "hrbz0zzi3X6bD+x9PKeoR/rAPRLYBF8HoSmWUIBj2TAC1xIVgFUM2e33TYb++691Y6SvJu5EobzhepwYTsARzg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\lucia\\Downloads\\Teste-Nivelamento-Desenvolvedor-CSharp-API-v3 1\\Questao1\\Questao1.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\lucia\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.27\\microsoft.windowsdesktop.app.ref.6.0.27.nupkg.sha512",
+    "C:\\Users\\lucia\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.27\\microsoft.netcore.app.ref.6.0.27.nupkg.sha512",
+    "C:\\Users\\lucia\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.27\\microsoft.aspnetcore.app.ref.6.0.27.nupkg.sha512",
+    "C:\\Users\\lucia\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\6.0.27\\microsoft.netcore.app.host.win-x64.6.0.27.nupkg.sha512"
+  ],
+  "logs": []
+}

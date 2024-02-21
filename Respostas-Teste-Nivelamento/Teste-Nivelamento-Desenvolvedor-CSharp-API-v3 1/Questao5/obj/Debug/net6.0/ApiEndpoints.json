@@ -1,0 +1,49 @@
+[
+  {
+    "ContainingType": "Questao5.Infrastructure.Services.Controllers.MovimentacaoContaCorrenteController",
+    "Method": "AdicionarMovimento",
+    "RelativePath": "api/movimentacao",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "command",
+        "Type": "Questao5.Application.Commands.Requests.MovimentacaoContaCorrenteCommand",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Questao5.Infrastructure.Services.Controllers.SaldoContaCorrenteController",
+    "Method": "ObterSaldoContaCorrente",
+    "RelativePath": "api/saldocontacorrente/{idContaCorrente}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "idContaCorrente",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      },
+      {
+        "Type": "Microsoft.AspNetCore.Mvc.ProblemDetails",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 400
+      }
+    ]
+  }
+]
